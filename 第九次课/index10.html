@@ -18,10 +18,34 @@
             width: 220px;
             height: 220px;
         }
+        .button{
+            display:inline-block;
+            padding:15px 25px;
+            font-size: 24px;
+            cursor:pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: silver;
+            background-color: springgreen;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px burlywood;
+        }
+        .button:hover{
+            background-color: darkslategray;
+        }   
+        .button:active{
+            background-color: dimgrey;
+            box-shadow:0 5px green;
+            transform: translateY(4px);
+        }
     </style>
 </head>
 <body>
     <div id="wrapper">1234</div>
     <div id="wrapper2">5678</div>
+    <h2>按钮动画</h2>
+    <button class="button">请点击我</button>
 </body>
 </html>
